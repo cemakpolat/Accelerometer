@@ -1,0 +1,41 @@
+<resources>
+
+    <style name="Theme.Gtarc" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_gtarc</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Gtarc</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Gtarc</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Gtarc</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Gtarc</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Gtarc</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_gtarc</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_gtarc</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Gtarc</item>
+    </style>
+
+    <style name="ActionBar.Solid.Gtarc" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_gtarc</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_gtarc</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_gtarc</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Gtarc</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Gtarc" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_gtarc</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Gtarc</item>
+    </style>
+    
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Gtarc.Widget" parent="@style/Theme.AppCompat">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Gtarc</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Gtarc</item>
+    </style>
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+
+</resources>

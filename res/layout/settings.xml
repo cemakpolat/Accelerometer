@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textViewProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textViewAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewProgress"
+        android:layout_marginTop="50dp"
+        style="@android:style/TextAppearance.Large"
+        android:layout_centerInParent="true"
+        android:text="Current Sensitivity">
+    </TextView>
+<TextView
+        android:id="@+id/textSensitivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewAction"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp"
+        android:layout_centerInParent="true"
+        android:text="">
+    </TextView>
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewProgress"
+        android:layout_marginTop="10dp"
+        android:max="100" >
+    </SeekBar>
+
+</RelativeLayout>

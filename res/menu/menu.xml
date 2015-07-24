@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.acc.main.MainActivity" >
+
+    <item
+        android:icon="@drawable/ic_action_core_overflow"
+        android:title=""
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/menu_save"
+                android:orderInCategory="100"
+                android:title="@string/addPlace"/>
+            <item
+                android:id="@+id/menu_settings"
+                android:orderInCategory="100"
+                android:title="@string/action_settings"/>
+             <item
+                android:id="@+id/menu_json_conversion"
+                android:orderInCategory="100"
+                android:title="@string/action_json_conversion"/>
+        </menu>
+    </item>
+
+</menu>
